@@ -5,7 +5,7 @@ class ProductList extends Component {
         return (
             <div className="panel panel-primary">
                 <div className="panel-heading">
-                    <h3 className="panel-title">Danh Sách Sản Phẩm</h3>
+                    <h3 className="panel-title">Danh Sách Sản Phẩm 6789</h3>
                 </div>
                 <div className="panel-body">
                     <table className="table table-bordered table-hover">

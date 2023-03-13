@@ -7,7 +7,7 @@ import Menu from '../Menu/Menu';
 import routes from '../../routes';
 
 import { Switch, Route, BrowserRouter as Router, HashRouter } from 'react-router-dom';
-console.log('tuantran - change - lan 2');
+console.log('tuantran - TEST - ABC - PACKAGE-DEV-SERVER ...');
 class App extends Component {
     render() {
         return (

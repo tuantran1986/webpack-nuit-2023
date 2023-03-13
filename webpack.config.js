@@ -21,6 +21,17 @@ const VENDOR_LIBS = [
     'redux-thunk'
 ];
 
+// cau hinh - webpack-dev-server
+const devServer = {
+    port: 4000,
+    open: true,
+    disableHostCheck: true,
+    historyApiFallback: true,
+    overlay: true,
+    compress: true,
+    contentBase: '/'
+}
+
 
 module.exports = {
     entry: {
@@ -68,5 +79,6 @@ module.exports = {
             // lấy TEMPLATE tại địa chỉ ''src/index.html' ==> để tạo ra file INDEX.HTML (trong DIST)
             template: 'src/index.html'
         })
-    ]
+    ],
+    devServer
 }
